@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.card-container {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.card-body {
+    background-color: white;
+    width: 45rem;
+    height: 69.7rem;
+    border-radius: 2rem;
+    box-shadow: 0 4rem 4rem hsla(228, 87%, 40%, 0.15);
+}
+
+.card-hero img {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.card-main h1 {
+    font-size: 2.8rem;
+    padding: 2rem;
+    font-weight: 900;
+    color: #1F2E55;
+    margin-top: 2rem;
+}
+
+.card-main h2 {
+    color: hsl(224, 23%, 55%);
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 35rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.card-plan {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 35.4rem;
+    height: 9.8rem;
+    border-radius: 1.1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plan-price {
+    margin-right: 7rem;
+    text-align: left;
+}
+.plan-price h3 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.plan-price p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-change p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+.plan-change p:hover {
+    text-decoration: none;
+    color: hsl(245, 83%, 68%);
+}
+
+.btn-proceed {
+    border: none;
+    margin: 3rem;
+    height: 5rem;
+    width: 35.4rem;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 1.1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    box-shadow: 0 1rem 2rem hsla(245, 75%, 52%, 0.23);
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+}
+.btn-proceed:hover {
+    background-color: hsl(245, 83%, 68%);
+}
+
+.btn-cancel {
+    border: none;
+    background-color: transparent;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #717FA6;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 200ms ease-in-out;
+}
+.btn-cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
