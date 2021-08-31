@@ -12,7 +12,6 @@ body {
     background-image: url(../images/pattern-background-desktop.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    
 }
 
 ul {
@@ -48,7 +47,7 @@ html {
     width: 45rem;
     height: 69.7rem;
     border-radius: 2rem;
-    box-shadow: 0 4rem 4rem hsla(228, 87%, 40%, 0.15);
+    box-shadow: 0 4rem 4rem -2rem hsla(228, 87%, 40%, 0.15);
 }
 
 .card-hero img {
@@ -151,4 +150,55 @@ html {
 }
 .btn-cancel:hover {
     color: hsl(223, 47%, 23%);
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 415px)  {
+    .card-body {
+        width: 32.7rem;
+        height: 56.7rem;
+    }
+    .card-hero img {
+        width: 32.7rem;
+    }
+    .card-main h1 {
+        font-size: 2.2rem;
+        padding: 2rem;
+        margin-top: 0.5rem;
+    }
+    .card-main h2 {
+        font-size: 1.5rem;
+        width: 27rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+    .card-plan {
+        width: 27.9rem;
+        height: 8.1rem;
+    }
+    .plan-price {
+        margin-right: 2rem;
+    }
+    .plan-price h3 {
+        font-size: 1.4rem;
+    }
+    .plan-price p {
+        font-size: 1.4rem;
+    }
+
+    .plan-change p {
+        font-size: 1.3rem;
+    }
+    .btn-proceed {
+        margin: 2.5rem;
+        height: 5rem;
+        width: 27.9rem;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 1.5rem;
+    }
+    .btn-cancel {
+        font-size: 1.5rem;
+        padding: 0rem;
+    }
 }
