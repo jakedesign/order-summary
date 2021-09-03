@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -63,15 +65,15 @@ html {
     
 }
 
-.card-main h1 {
+.card-main .card-mainsummary {
     font-size: 2.8rem;
     padding: 2rem;
     font-weight: 900;
-    color: #1F2E55;
+    color: hsl(223, 47%, 23%);
     margin-top: 2rem;
 }
 
-.card-main h2 {
+.card-main .card-mainparagraph {
     color: hsl(224, 23%, 55%);
     font-size: 1.6rem;
     font-weight: 500;
@@ -105,7 +107,9 @@ html {
     color: hsl(224, 23%, 55%);
 }
 
-.plan-change p {
+.plan-change button {
+    border: none;
+    background: transparent;
     font-size: 1.4rem;
     font-weight: 700;
     color: hsl(245, 75%, 52%);
@@ -113,7 +117,7 @@ html {
     cursor: pointer;
     transition: 200ms ease-in-out;
 }
-.plan-change p:hover {
+.plan-change button:hover {
     text-decoration: none;
     color: hsl(245, 83%, 68%);
 }
@@ -123,7 +127,7 @@ html {
     margin: 3rem;
     height: 5rem;
     width: 35.4rem;
-    color: white;
+    color: hsl(0, 0%, 100%);
     background-color: hsl(245, 75%, 52%);
     border-radius: 1.1rem;
     font-family: 'Red Hat Display', sans-serif;
@@ -143,7 +147,7 @@ html {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
-    color: #717FA6;
+    color: hsl(224, 23%, 55%);
     cursor: pointer;
     padding: 0.5rem;
     transition: color 200ms ease-in-out;
